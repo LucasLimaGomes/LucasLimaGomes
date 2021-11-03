@@ -1,0 +1,557 @@
+*{margin: 0; padding: 0%;}
+
+body{
+    background-image:url(../Imagem/1440x900.jpg);
+    background-position: center;
+    background-size: cover;
+    background-size: cover;
+    
+}
+
+
+#topo{
+    width: 100%;
+    height: auto;
+}
+
+#topo_dc{
+    width: 100%;
+    height: auto;  
+}
+#acessibilidade{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin: auto;
+}
+#atalhos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    list-style: none;
+    padding-left: 1%;
+}
+#atalhos li{
+    display: inline;
+}
+#atalhos li a{
+    color: rgb(0, 0, 0);
+}
+#atalhos li a:hover{
+    color: #383838;
+}
+#pgacess{
+    padding-left: 20%;
+}
+.contraste, .fonte{
+    padding-left: 5px;
+}
+
+
+       
+
+
+
+#conteudo{
+    width: 50%;
+    min-height: 900px;
+    background-position: top;
+}
+#conteudo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+} 
+h2{
+  color: rgb(255, 255, 255);  
+}
+.paragrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    
+}
+#rodape{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(39, 38, 38);;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 3%
+}
+
+nav{
+    
+    width: 105%;
+    height: auto;
+    background-color:rgb(126, 126, 126);
+    float: right;
+    list-style-type: none;
+
+}
+#menu{
+    list-style: none;
+    border:1px solid rgb(114, 114, 114);
+    float: inline-start;
+    padding-left: 10%;
+    }
+#menu li{
+    position: relative;
+    float: left;
+    border-right: 1px solid rgb(253, 253, 253);
+   
+
+}
+#menu li a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px 6px;
+    display: block;
+
+}
+#menu li a:hover{
+    background-color: rgb(75, 74, 74);
+    transition: 1s;
+    
+}
+/*submenu*/
+#menu li ul{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: rgb(86, 87, 87);
+    display: none;
+
+}
+#menu li:hover ul, #menu li.over ul{
+    display: block;
+
+    
+}
+#menu li ul li{
+    border: 1px solid rgb(243, 21, 21);
+    display:block;
+    width: 150px;
+}
+label[for="bt_menu"]{
+    display: none;
+}
+#bt_menu{
+    display: none;
+
+
+}
+
+
+.dp-menu ul{
+    list-style-type: none;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#body_batman{
+    background-image:url(../Imagem/wallpapersden.com_batman-cool-art_1440x900.jpg);
+    background-position: center;
+    background-size: cover;
+    background-size: cover;
+
+}
+#topo_batman{
+    width: 50%;
+    height: auto;
+}
+.paragrafo_batman{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+#conteudo_batman{
+    width: 50%;
+    min-height: 900px;
+    background-position: top;
+    
+    
+}
+
+
+
+
+
+
+#body_coringa{
+    background-image:url(../Imagem/1440x900_joker-4k.jpg);
+
+}
+#topo_coringa{
+    width: 100%;
+    height: auto;
+
+}
+.paragrafo_coringa{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+#rodape_coringa{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 0, 157);;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 3%;
+}
+#conteudo_coringa{
+    width: 30%;
+    min-height: 900px;
+    background-position: top;
+}
+
+
+
+
+#body_mulher_maravilha{
+    background-image:url(../Imagem/dc-comics-heroi-mulher-maravilha-papel-de-parede-1440x900_4.jpg);
+
+}
+#topo_mulher_maravilha{
+    width: 100%;
+    height: auto;
+}
+.paragrafo_mulher_maravilha{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+#rodape_mulher_maravilha{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 3%;
+}
+    
+
+
+
+
+#body_lanterna_verde{
+    background-image:url(../Imagem/3406-1440x900.jpg);
+
+}
+#topo_lanterna_verde{
+    width: 100%;
+    height: auto;
+}
+#rodape_lanterna_verde{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(2, 2, 2);;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 3%;
+}
+.paragrafo_lanterna_verde{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+    
+
+
+
+
+
+#body_superman{
+    background-image:url(../Imagem/superman-2020-artwork-4k-te-1440x900.jpg);
+
+}
+#topo_superman{
+    width: 90%;
+    height: auto;
+}
+.paragrafo_superman{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+#conteudo_superman{
+    width: 20%;
+    min-height: 900px;
+    background-position: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#body_flash{
+    background-image:url(../Imagem/red-flash-au-1440x900.jpg);
+
+}
+#topo_flash{
+    width: 10%;
+    height: auto;
+}
+.paragrafo_flash{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+#conteudo_flash{
+    width: 20%;
+    min-height: 900px;
+    background-position: top;
+}
+#rodape_flash{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(2, 2, 2);;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 3%;
+}
+#body_contato{
+    background-image:url(../Imagem/fundo-padrao-3.jpg);
+    
+
+}
+input, select{
+    width: 40%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(36, 35, 35);
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 5px;
+
+}
+label,legend{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-left: 5px;
+    
+}
+fieldset{
+    border-color: rgb(77, 4, 4); 
+    border-radius: 15px;
+}
+textarea{
+    width: 95%;
+    padding: 9px;
+    margin-left: 0px;
+
+
+}
+input[type=submit]{
+    width: 15;
+    height: 40px;
+    background-color: brown;
+    color:rgb(0, 0, 0)
+}
+input[type=reset]{
+    width: 15;
+    height: 40px;
+    background-color: brown;
+    color:rgb(0, 0, 0)
+}
+.required::after{
+    content:  "*";
+    color: rgb(255, 30, 0);
+}
+
+
+
+
+
+
+.breadcrumb{
+    padding-left: 2%;
+    list-style: none;
+}
+.breadcrumb li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    font-size: 0.7em;
+}
+.breadcrumb li a{
+    color: aqua;
+    text-decoration: none;
+
+}
+.breadcrumb li+li::before{
+    content: "/\00a0" ;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+
+
+
+} 
+.breadcrumb li a:hover{
+    color: rgb(114, 114, 114);
+    text-decoration: underline;
+
+}
+/*media queries*/
+
+/*media querie menu responsivo*/
+
+@media screen and (max-width:630px){
+    #menu{
+        display: none;
+    }
+    label[for="bt_menu"]{
+        display: block;
+       
+
+
+    }
+    #bt_menu:checked ~ #menu{
+        display: block;
+        border: none;
+
+    }
+    #menu li{
+        position: relative;
+        float: left;
+        width: 100%;
+    }
+    #menu li ul{
+        position: static;
+        width: 100%;
+        float:right
+    }
+    #menu li ul li{
+        position: relative;
+        width: 100%;
+        float: left;
+        display: block;
+    }
+
+
+
+}
+@media screen and (max-width: 1440px ){
+    
+    #pgacess{
+        padding-left: 30%;
+    }
+    .contraste, .fonte{
+        padding-left: 5px;
+    }
+
+}
+@media screen and (max-width:1280px){
+    #pgacess{
+        padding-left: 20%;
+    }
+    
+}
+@media screen and (max-width: 1024px){
+    #pgacess{
+        padding-left: 15%;
+    }
+}  
+@media screen and (max-width: 630px){
+    ul#atalhos li{
+        display: none;
+    }
+    ul#atalhos li#pgacess{
+        padding-left: 2%;
+        display: inline-block;
+    }
+    ul#atalhos li.contraste{
+        display: inline-block;
+    }
+    ul#atalhos li.fonte{
+        display:inline-block;
+
+    }
+
+}
+@media screen and (max-width: 420px){
+    #atalhos{
+        font-size: 0.9em;
+    }
+    ul#atalhos li#pgacess{
+        padding-left: 2%;
+        display: inline-block;
+    }
+    ul#atalhos li.contraste{
+        display: inline-block;
+    }
+    ul#atalhos li.fonte{
+        display:inline-block;
+
+    }
+
+}
+
+
+
